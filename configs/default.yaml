@@ -43,13 +43,13 @@ pages:
             name: MUSHRA - Random 1
             content: Due to randomization, this page will be either the second MUSHRA page or the third MUSHRA page.
             enableLooping: true 
-            reference: configs/resources/audio/mono_ref.wav
+            reference: configs/resources/audio/A.wav
             createAnchor35: false
             createAnchor70: false
             stimuli:
-                C1: configs/resources/audio/mono_c1.wav
-                C2: configs/resources/audio/mono_c2.wav
-                C3: configs/resources/audio/mono_c3.wav          
+                C1: configs/resources/audio/B.wav
+                C2: configs/resources/audio/C.wav
+                C3: configs/resources/audio/D.wav          
     - type: finish
       name: Thank you
       content: Thank you for attending!
