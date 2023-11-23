@@ -10,11 +10,11 @@ pages:
     - type: generic
       id: first_page
       name: Welcome
-      content: Welcome to webMUSHRA!       
+      content: Audio evaluation of call quality in windy conditions
     - type: mushra
       id: trial1
       name: MUSHRA
-      content: This training shows how to use our user interface. Please perform the underlined instructions to proceed with the training session. Reminder: In a MUSHRA listening test you are asked to rate the Basic Audio Quality (BAQ) of each condition.<br/>Basic Audio Quality is a single and global attribute that is used to judge any and all detected differences between the reference and the condition.
+      content: Here you will listen to some clips of phone calls recorded through different headphones in a windy environment. Please rate them on how well you can make understand what is said.<br/>Basic Audio Quality is a single and global attribute that is used to judge any and all detected differences between the reference and the condition.
       showWaveform: true
       enableLooping: true 
       reference: configs/resources/audio/A.wav
@@ -31,13 +31,13 @@ pages:
             name: MUSHRA - Random 2
             content: Due to randomization, this page will be either the second MUSHRA page or the third MUSHRA page.
             enableLooping: true 
-            reference: configs/resources/audio/mono_ref.wav
+            reference: configs/resources/audio/A.wav
             createAnchor35: false
             createAnchor70: false
             stimuli:
-                C1: configs/resources/audio/mono_c1.wav
-                C2: configs/resources/audio/mono_c2.wav
-                C3: configs/resources/audio/mono_c3.wav          
+                C1: configs/resources/audio/C.wav
+                C2: configs/resources/audio/D.wav
+                C3: configs/resources/audio/E.wav          
           - type: mushra
             id: trial_random_2
             name: MUSHRA - Random 1
